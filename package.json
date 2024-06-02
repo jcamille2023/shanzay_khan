@@ -44,6 +44,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.24.6",
+    "customize-cra": "^1.0.0",
     "react-app-rewired": "^2.2.1",
     "ts-loader": "^9.5.1"
   }
