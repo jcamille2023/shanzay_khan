@@ -12,11 +12,13 @@ const Banner: React.FC = () => {
 const Home: React.FC = () => {
     return (
         <>
-            <Header links={ [
-        { name: "Home", url: "/", key: 0 },
-        { name: "About", url: "/about", key: 1 },
-        { name: "Contact", url: "/contact", key: 2 }
-    ]}></Header>
+            <Header links={ 
+                [
+                    { name: "Home", url: "/", key: 0 },
+                    { name: "About", url: "/about", key: 1 },
+                    { name: "Contact", url: "/contact", key: 2 }
+                ]
+            } />
             <Banner />
         </>
     );
